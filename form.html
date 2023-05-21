@@ -9,22 +9,36 @@
         form input{
             margin-bottom: 15px;
         }
+        p{
+            text-align: center; 
+            background-color: rgb(255, 94, 0);
+            font-size: 50px;
+            color: aliceblue;
+        }
     </style>
 </head>
 <body>
     <form action="">
+        <fieldset>
+        <p>sở thích của bạn</p>
         <label for="">Họ Và Tên :</label> <br>
         <input type="text" name="name" id="name"> <br>
 
         <label for="">Email :</label> <br>
         <input type="text" name="email" id="email"> <br>
 
-        <label for="">Số Điện Thoại :</label> <br>
-        <input type="number" name="phone" id="phone"> <br>
+        <label for="">Sở Thích :</label> <br>
+        <input type="checkbox" name="hobby" id="hobby"> Thể Thao
+        <input type="checkbox" name="hobby" id="hobby"> Âm Nhạc
+        <input type="checkbox" name="hobby" id="hobby"> Đọc Sách <br>
+        <input type="checkbox" name="hobby" id="hobby"> Lướt Web
+        <input type="checkbox" name="hobby" id="hobby"> Chơi Game
+        <input type="checkbox" name="hobby" id="hobby"> Điện Ảnh <br>
+        <input type="checkbox" name="hobby" id="hobby"> Du Lịch <br>
 
-        <label for="">Giới Tính :</label> <br>
-        <input type="radio" name="gender" id="gender"> Nam
-        <input type="radio" name="gender" id="gender"> Nữ
+        <input type="submit" value="Submit Form" style="margin-left: 10%;">
+        <input type="reset" value="Nhập Lại">
+    </fieldset>
     </form>
 </body>
 </html>
